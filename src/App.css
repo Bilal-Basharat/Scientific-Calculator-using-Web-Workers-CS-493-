@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  color:#fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+body {
+  background-image: url('../public/images/bg-main.jfif');
+  background-color: #121212;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  
+}
+footer p {
+  color: #eeee;
+  position:absolute;
+  bottom: 0;
+}
+
